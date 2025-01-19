@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* navbar style */
+.navbar{
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 87px auto;
+    gap: 490px;
+}
+.nav-list-item{
+    gap: 34px;
+    justify-content: center;
+    
+}
+.nav-list ul li{
+    display: block;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav-list ul  img{
+    width: 3%;
+    width: 3%;
+    gap: 34px;
+    
+}
+/* container styles */
+.camera-image{
+    background-image: url("../assets/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+}
+.main-image{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.container{
+    margin: 100px 132px 159px 120px;
+    align-items: center;
+    gap: 134px;
+    justify-content: space-between;
+}
+.container-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.container-description{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: auto;
+    color: #3A3A3A;
+    margin-bottom: 29px;
+}
+.btn-primary{
+    padding: 10px 24px;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    background-color: #E02C6D;
+
+}
+.fa-solid{
+    margin-left: 5px;
+}
+@media screen and (max-width: 576px) {
+    .nav-title{
+        margin: 35px 99px;
+        width: 150px;
+        
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .nav-list{
+        display: none;
+    }
+    
+}
